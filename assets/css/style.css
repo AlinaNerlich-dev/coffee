@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Special Elite', cursive;
+}
+h2{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 2em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+}
+p{
+    line-height:1.8em;
+}
+.bridge{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+.pic{
+    width: 300px;
+    height: 200px;
+}
+
+/* HEADER */
+header{
+    background-image: url("../img/bg.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    width: 100vw;
+    padding: 1.5em;
+    background-color: white;
+}
+nav ul{
+    width:25em;
+    margin-left: auto;
+}
+nav ul li{
+    display: inline;
+    padding-right: 1.5em;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 1px solid #000;
+}
+header img{
+    position: absolute;
+    top: 50%;
+}
+
+/* HELLO */
+main section{
+   position: relative; 
+}
+#beans{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+main section article{
+    position: absolute;
+    top: 4em;
+}
+.text{
+    width:400px;
+    margin-left: 5em;
+}
+
+/* MENU */
+#menu{
+    background-image:url("../img/cake_icon.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 2em;
+}
+#toast{
+    width: 6em;
+}
+#menu>div{
+    border:1px solid grey;
+    width: 35%;
+    margin: 1em auto;
+}
+#eggs{
+    object-position: top;
+}
+
+/* OUR STORY */
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+#story{
+    position: relative;
+    right: 5em;
+}
+#paper{
+    position: relative;
+    top: 10em;
+}
+/* CATERING & OUR CAKES */
+#catering{
+    position: relative;
+    top: 6em;
+}
+#pie{
+    background-image: url("../img/pie_icon.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+button{
+    margin-top: 1em;
+} 
+
+#muffin{
+    background-image: url("../img/muffin_icon.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+#copyright>h4{
+    color: white;
+    font-size: 1.5em;   
+}
+#copyright>p{
+    color: white;
+}
+footer img{
+    display: block;
+    margin:.5em;
+}
+.socialMedia{
+    width: 3em;
+    margin: 0 auto;
+}
+#today{
+    width: 10em;
+    margin: 0 auto;
+}
